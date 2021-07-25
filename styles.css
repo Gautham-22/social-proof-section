@@ -1,0 +1,116 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+:root {
+    font-size: 15px;
+}
+
+body {
+    font-family: 'Spartan', sans-serif;
+    padding: 5.5rem 0rem 3.5rem;
+    position: relative;
+}
+
+.profile__pic {
+    display: block;
+}
+
+#page__title {
+    width: min(70%,380px);
+    margin: 0 auto;
+    text-align: center;
+    font-weight: 700;
+    color: hsl(300, 43%, 22%);
+}
+
+#page__description {
+    width: min(88%,430px);
+    margin: 2em auto 2.3em;
+    font-size: 0.95rem;
+    text-align: center;
+    font-weight: 500;
+    line-height: 1.6;
+    color: hsl(303, 10%, 53%);
+}
+
+.rating {
+    width: min(85%,410px);
+    margin: 1.3em auto;
+    padding: 1.2em 0em;
+    border-radius: 10px;
+    text-align: center;
+    background-color: rgba(252, 215, 232, 0.25);
+}
+
+.last__rating {
+    margin-bottom: 4em;
+}
+
+.rating img {
+    margin: 0 3px;
+}
+
+.statement {
+    font-size: 0.85rem;
+    margin-top: 0.8em;
+    font-weight: 700;
+    color: hsl(300, 43%, 22%);
+}
+
+.review {
+    width: min(85%,410px);
+    margin: 1em auto;
+    padding: 2em;
+    border-radius: 10px;
+    color: hsl(300, 24%, 96%);
+    background-color: hsl(300, 43%, 22%);
+}
+
+.profile {
+    display: flex;
+    align-items: center;
+    margin: 1.5em 0;
+    font-size: 0.9rem;
+    font-weight: bolder;
+    color: hsl(300, 24%, 96%);
+}
+
+.profile__pic {
+    width: 45px;
+    height: 45px;
+    border-radius: 50%;
+}
+
+.profile__about {
+    margin-left: 20px;
+}
+
+.verified {
+    display: block;
+    margin-top: 5px;
+    font-weight: 500;
+    color: hsla(333, 80%, 67%,0.7);
+}
+
+.content {
+    margin-bottom: 0.7em;
+    font-size: 0.87rem;
+    text-indent: 3px;
+    line-height: 1.6;
+    color: hsl(300, 24%, 96%);
+}
+
+#top-bg {
+    position: absolute;
+    top: 0%;
+    left: 0%;
+}
+
+#bottom-bg {
+    position: absolute;
+    bottom: 0%;
+    right: 0%;
+}
