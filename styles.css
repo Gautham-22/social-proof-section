@@ -178,7 +178,12 @@ body {
     }
     #third__rating {
         margin: 0;
-        float: inline-end;
+        float: right;
+    }
+    #third__rating::after {
+        clear: both;
+        content: "";
+        display: table;
     }
 }
 
