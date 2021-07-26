@@ -62,7 +62,7 @@ body {
 
 .review {
     width: min(85%,410px);
-    margin: 1em auto;
+    margin: 1em auto 2em;
     padding: 2em;
     border-radius: 10px;
     color: hsl(300, 24%, 96%);
@@ -114,3 +114,86 @@ body {
     bottom: 0%;
     right: 0%;
 }
+
+@media screen and (min-width : 800px) {
+    :root {
+        font-size: 16px;
+    }
+    body {
+        padding: 5.5rem 0rem 2rem;
+    }
+    .container1, .container2 {
+        width: min(80%,1150px);
+        margin: 0 auto;
+        display: flex;
+        justify-content: space-between;
+    }
+    .container1 {
+        margin-bottom: 1.4em;
+    }
+    .wrapper1 {
+        width: 100%;
+    }
+    .wrapper2 {
+        width: 100%;
+    }
+    #second__review {
+        margin: 2em 2em 1em;
+    }
+    #third__review {
+        margin: 3em 0em 0em;
+    }
+    #page__title {
+        margin: 0;
+        text-align: start;
+        font-size: 2.1rem;
+    }
+    #page__description {
+        width: min(88%,460px);
+        margin: 1em 0em;
+        text-align: start;
+        font-size: 0.8rem;
+    }
+    .rating {
+        width: min(85%,440px);
+        display: flex;
+        justify-content: space-evenly;
+        align-items: center;
+    }
+    .statement {
+        align-self: flex-start;
+        margin-top: 0;
+        font-size: 0.67rem;
+    }
+    .rating img {
+        margin: 0 1.5px;
+        width: 10px;
+        height: 10px;
+    }
+    #first__rating {
+        margin: 0em 0em 1.3em;
+    }
+    #second__rating {
+        margin: 1.3em auto;
+    }
+    #third__rating {
+        margin: 0;
+        float: inline-end;
+    }
+}
+
+@media screen and (min-width : 930px) {
+    #page__title {
+        font-size: 2.5rem;
+    }
+    #page__description {
+        font-size: 0.9rem;
+    }
+    .statement {
+        font-size: 0.8rem;
+    }
+    .rating img {
+        width: 15px;
+        height: 15px;
+    }
+} 
